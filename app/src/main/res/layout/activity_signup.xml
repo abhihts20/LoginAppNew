@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGO"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/ic_chevron_left_white_24dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="SIGN UP"
+        android:textColor="#DD7CF3"
+        android:textSize="30dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginLeft="40dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/card_login"
+        android:paddingTop="20dp"
+        android:elevation="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="User name"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:drawableEnd="@drawable/ic_person_black_24dp"
+            android:paddingEnd="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_card"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+        <TextView
+            android:paddingTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Email"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:drawableEnd="@drawable/ic_email_white_24dp"
+            android:paddingEnd="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_card"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+        <TextView
+            android:paddingTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Password"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:drawableEnd="@drawable/ic_vpn_key_white_24dp"
+            android:paddingEnd="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_card"
+            android:inputType="textWebPassword"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:paddingTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Confirm Password"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:drawableEnd="@drawable/ic_vpn_key_white_24dp"
+            android:paddingEnd="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_card"
+            android:inputType="textWebPassword"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="40dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:padding="7dp"
+        android:elevation="20dp">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/soci_icons"
+            android:elevation="5dp"
+            android:src="@drawable/ic_twitter" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:src="@drawable/ic_facebook"
+            android:background="@drawable/soci_icons"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:src="@drawable/ic_google_plus"
+            android:background="@drawable/soci_icons"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textAlignment="center"
+            android:background="@drawable/card_login"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+
+            android:textSize="22dp"
+            android:textColor="#ffffff"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:elevation="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

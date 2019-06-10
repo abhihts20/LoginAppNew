@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO THE COMPANY!!"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/btn_01"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_cur"
+        android:text="CONTINUE!!"/>
+</LinearLayout>

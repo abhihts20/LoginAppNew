@@ -28,7 +28,7 @@
         android:orientation="vertical"
         android:layout_gravity="center"
         android:background="@drawable/card_login"
-        android:paddingTop="20dp"
+        android:paddingTop="10dp"
         android:elevation="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp">
